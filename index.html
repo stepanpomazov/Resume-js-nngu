@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Степан Помазов</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Степан Помазов</div>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#education" class="nav-link">Образование</a></li>
+                <li><a href="#projects" class="nav-link">Мои проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+                <li class="language-switch">
+                    <a href="#" class="lang" data-lang="ru">🇷🇺</a>
+                    <a href="#" class="lang" data-lang="en">🇬🇧</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <div class="container">
+        <section id="photo">
+            <img src="myphoto.jpg" alt="Степан Помазов" class="profile-photo">
+        </section>
+
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p style="padding-bottom: 10px;">Возраст: 20 лет</p>
+            <p>Я - веб-разработчик, с опытом создания современных, адаптивных сайтов и веб-приложений.</p>
+        </section>
+        
+        <section id="education">
+            <h2>Образование</h2>
+            <p style="padding-bottom: 10px;">ННГАСУ — Специальность: Информационные системы и технологии, 3 курс (до 2026 года).</p>
+            <p>Курсы в ННГУ им. Лобачевского — JavaScript, Web-разработка</p>
+        </section>
+
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <div class="project-container">
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1.</p>
+                </div>
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1.</p>
+                </div>
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1.</p>
+                </div>
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1.</p>
+                </div>
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1. Описание проекта 1. Описание проекта 1. Описание проекта 1.  </p>
+                </div>
+                <div class="project">
+                    <img src="project_img.jpg" alt="Проект 1">
+                    <h3>Проект 1</h3>
+                    <p>Описание проекта 1.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Email: stpomazov@mail.ru</p>
+            <p>Телефон: +7 (952) 453-1522</p>
+        </section>
+
+        <footer>
+            <p>© 2024 Помазов Степан. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
